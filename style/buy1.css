@@ -1,0 +1,60 @@
+main{
+margin: 3rem;
+}
+
+.buy__title{
+    font-family: var(--first-font);
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.buy__content{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.buy_content-icrecream{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buy__img{
+    width: 50%;
+}
+
+.buy__product-description{
+    font-family: var(--first-font);
+    margin: 1rem 0;
+}
+
+.buy__product-name{
+
+    font-family: var(--first-font);
+    font-weight: 700;
+    font-size: 1.5rem;
+
+}
+
+.buy__content-quantity{
+    margin-left: 10rem
+}
+
+.buy__quantity-box{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    outline: none;
+    background-color: #f7f7f7d2;
+    border-radius: 5px;
+    padding: .5rem;
+}
+
+.buy__quantity{
+    font-family: var(--first-font);
+}

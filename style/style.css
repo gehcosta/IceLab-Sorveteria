@@ -58,12 +58,7 @@ body{
     background-color: var(--third-color);
     
 }
-.menu__background{
-    /* background-image: url(../src/image2.jpg); */
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-}
+
 
 .menu__title{
     font-family: var(--first-font);
@@ -203,6 +198,7 @@ body{
     border-radius: 0.5rem;
     background-color: var(--third-color);
     box-shadow: 0 3px 2px 0;
+    outline: none;
 }
 
 .contact__boxes-small{

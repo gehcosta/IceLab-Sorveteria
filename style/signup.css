@@ -1,0 +1,119 @@
+/* geral */
+* {
+    font-family: var(--first-font);
+    color: var(--fifth-color);
+    border: none;
+  }
+
+  .back{
+    margin: 2rem;
+  }
+
+  .back__img{
+    width: 3%;
+  }
+
+ .register__title{
+  font-family: var(--first-font);
+  font-weight: 700;
+ }
+  
+  input, label {
+    display: block;
+    outline: none;
+    width: 100%;
+  }
+  
+  body {
+    margin-top: 1rem;
+    background-image: url('../src/backgroundlogin.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  /* form */
+  #main-container {
+    width: 500px;
+    margin: 3rem auto 0 auto;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px 0;
+
+  }
+  
+  #main-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .full-box {
+    flex: 1 1 100%;
+    position: relative;
+  }
+  
+  .half-box {
+    flex: 1 1 45%;
+    position: relative;
+  }
+  
+  .spacing {
+    margin-right: 2.5%;
+  }
+  
+  label {
+    font-family: var(--first-font);
+    font-size: .8rem;
+    margin-left: 12px;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+    border-radius: 10px
+  }
+  
+  input:focus {
+    border-color: #E60084;
+  }
+  
+  input[type="submit"] {
+    background-color: #E60084;
+    color: #FFF;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  #agreement {
+    margin-right: 5px;
+  }
+  
+  #agreement, #agreement-label {
+    display: inline-block;
+    width: auto;    
+  }
+  
+  .error-validation {
+    color: #ff1a1a;
+    position: absolute;
+    top: 57px;
+    font-size: 12px;
+    margin: 10px 0 0 12px;
+  }
+  
+  .template {
+    display: none;
+  }
+
