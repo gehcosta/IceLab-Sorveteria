@@ -1,0 +1,80 @@
+:root{
+
+  /* colors */
+  --first-color: #f59193;
+  --second-color: #fcd26e;
+  --third-color: #FEEEE1;
+  --fourth-color: #fbb6b7;
+  --fifth-color: #410c12;
+
+  /* fonts */
+  --first-font: 'Merienda', cursive;
+  --second-font: 'Righteous', cursive;
+}
+
+/* Products */
+
+.products{
+  padding: 3rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 5px 0;
+}
+
+.products__title{
+  font-family: var(--first-font);
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--fifth-color);
+  margin-bottom: 2rem;
+}
+
+.products__link{
+  text-decoration: none;
+  color: var(--fifth-color);
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  font-family: var(--second-font);
+  background-color: var(--second-color);
+  padding: 1rem 3rem;
+  border-radius: 5px;
+}
+
+/* about us */
+.aboutus{
+  padding: 3rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.aboutus__content{
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutus__img{
+  width: 20%;
+
+}
+
+.aboutus__title{
+    font-family: var(--first-font);
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--fifth-color);
+    margin-bottom: 1rem;
+}
+
+.aboutus__text{
+    font-family: var(--first-font);
+    font-size: 1rem;
+    color: var(--fifth-color);
+    margin-bottom: 1rem;
+}

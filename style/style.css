@@ -1,0 +1,325 @@
+:root{
+
+    /* colors */
+    --first-color: #f59193;
+    --second-color: #fcd26e;
+    --third-color: #FEEEE1;
+    --fourth-color: #fbb6b7;
+    --fifth-color: #410c12;
+
+    /* fonts */
+    --first-font: 'Merienda', cursive;
+    --second-font: 'Righteous', cursive;
+}
+
+.navbar{
+    background-color: var(--fourth-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px 0;
+    margin-bottom: 10px;
+
+}
+
+.navbar__logo{
+    width: 5%;
+    margin-left: 5rem;
+}
+
+.navbar__content{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.navbar__links{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar__words{
+    text-decoration: none;
+    color: var(--fifth-color);
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-family: var(--second-font);
+    
+}
+
+.navbar__user{
+    margin: 0 2rem;
+}
+
+/* main */
+
+body{
+    background-color: var(--third-color);
+    
+}
+.menu__background{
+    /* background-image: url(../src/image2.jpg); */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.menu__title{
+    font-family: var(--first-font);
+    text-align: center;
+    font-size: 3rem;
+    color: var(--fifth-color);
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.menu__icecream-pot1, .menu__icecream-pot2{
+    display: flex;
+}
+
+.menu__content{
+    text-decoration: none;
+    width: 100%;
+}
+
+.menu__icecream-pot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    gap: 3rem;
+    background-color: var(--second-color);
+    margin: 5rem;
+    padding: 2rem;
+    border-radius: 10px;
+    
+}
+
+.menu__icecream-pot:hover{
+    background-color: var(--fourth-color);
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.icecream-pot__img{
+    width: 30%;
+    border-radius: 0.5rem;
+}
+
+.icecream-pot__title{
+    font-family: var(--first-font);
+    font-size: 2rem;
+    color: var(--fifth-color);
+    margin-bottom: 1rem;
+}
+
+.icecream-pot__words{
+    font-family: var(--first-font);
+    font-size: 1rem;
+    color: var(--fifth-color);
+    margin-bottom: 1rem;
+
+}
+
+/* Picolés */
+
+.icecreams__content{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.icecreams__box{
+    background-color: #f6f6f6;
+    margin: 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icecreams__box:hover{
+    background-color: var(--fourth-color);
+    transition: 0.5s;
+    transform: scale(1.03);
+}
+
+.icecreams__img{
+    width: 80%;
+
+}
+
+.icecreams__title{
+    font-family: var(--first-font);
+    font-size: 1.5rem;
+    color: var(--fifth-color);
+    margin-bottom: 1rem;
+}
+
+.icecreams__cost{
+    font-family: var(--first-font);
+    font-size: 1rem;
+    color: var(--fifth-color);
+    margin-bottom: 1rem;
+}
+
+.icecreams__link{
+    text-decoration: none;
+}
+
+.icecreams__words{
+    text-decoration: none;
+    color: var(--fifth-color);
+    font-size: 1rem;
+    font-family: var(--first-font);
+    margin-bottom: 1rem;
+    background-color: var(--second-color);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 0;
+}
+
+/* Contact Us */
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: var(--second-color);
+    margin-bottom: 3rem;
+    padding: 3rem;
+}
+
+.contact__names{
+    font-family: var(--second-font);
+    font-size: 1rem;
+    color: var(--fifth-color);
+    margin-bottom: 0.2rem;
+}
+
+.contact__boxes-small, .contact__boxes-large{
+    border-radius: 0.5rem;
+    background-color: var(--third-color);
+    box-shadow: 0 3px 2px 0;
+}
+
+.contact__boxes-small{
+    padding: 0.7rem 7rem;
+    margin-bottom: 1rem;
+
+}
+
+.contact__boxes-large{
+    padding: 0.2rem 3rem;
+    margin-bottom: 1rem;
+    width: 35rem;
+    height: 18rem;
+}
+
+.contact__button{
+    background-color: var(--third-color);
+    color: var(--fifth-color);
+    font-family: var(--first-font);
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    border: none;
+    box-shadow: 0 2px 2px 0;
+}
+
+.contact__button:hover{
+    background-color: #fbfbfb;
+    transition: 0.5s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+
+.contact__title{
+    font-family: var(--first-font);
+    text-align: center;
+    font-size: 4rem;
+    color: var(--fifth-color);
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.contact__words{
+    font-family: var(--first-font);
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: var(--fifth-color);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+
+
+.contact__description{
+    padding: 2rem;
+}
+
+/* footer */
+
+footer{
+    background-color: var(--fourth-color);
+
+}
+
+.footer__content{
+    padding-bottom: 2rem;
+
+}
+
+.footer__box1{
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer__logo{
+    width: 7%;
+
+}
+
+.footer__title{
+    font-family: var(--first-font);
+    font-size: 1.5rem;
+    color: var(--fifth-color);
+    margin-bottom: 1rem;
+}
+
+.footer__about{
+    text-decoration: none;
+    color: var(--fifth-color);
+    font-size: 1rem;
+    font-family: var(--first-font);
+
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer__buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer__link{
+    text-decoration: none;
+    background-color: var(--second-color);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+
+.footer__link:hover{
+    background-color: #ffcd57;
+    cursor: pointer;
+}
