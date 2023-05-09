@@ -1,75 +1,83 @@
-
-
 main{
-    padding: 5rem;
+margin: 3rem;
+}
+
+.buy__title{
+    font-family: var(--first-font);
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
 
 .buy__content{
     display: flex;
     align-items: center;
-    gap: 4rem;
-    padding: 2rem 0;
+    gap: 1rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
 .buy_content-icrecream{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
-
-}
-
-.buy__information{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 1rem;
-}
-
-.buy__title{
-    font-family: var(--first-font);
-    font-weight: 700;
-    font-size: 1.5rem;
-    color: var(--fifth-color);
-    margin-bottom: 1rem;
 }
 
 .buy__img{
     width: 50%;
 }
 
-.buy__content{
-    display: flex;
-    background-color: #fff;
-    border-radius: 12px;
-
+.buy__product-description{
+    font-family: var(--first-font);
+    margin: 1rem 0;
 }
 
 .buy__product-name{
+
     font-family: var(--first-font);
     font-weight: 700;
     font-size: 1.5rem;
-    color: var(--fifth-color);
-    margin-bottom: 1rem;
-}
 
-.buy__product-description{
-    font-family: var(--first-font);
-    font-weight: 400;
-    font-size: 1.5rem;
-    color: var(--fifth-color);
 }
 
 .buy__content-quantity{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+    margin-left: 10rem
 }
 
 .buy__quantity-box{
-    border-radius: 12px;
-    border: 1px solid var(--fifth-color);
-    text-indent:10px;
-    padding: 0.2rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    outline: none;
+    background-color: #f7f7f7d2;
+    border-radius: 5px;
+    padding: .5rem;
+}
+
+.buy__quantity{
+    font-family: var(--first-font);
+}
+
+.buy__btn{
+    background-color: var(--third-color);
+    color: var(--fifth-color);
+    font-family: var(--first-font);
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    border: none;
+    box-shadow: 0 2px 2px 0;
+    text-decoration: none;
+}
+
+.buylarge{
+    margin-right: 4rem;
+}
+
+.buy__img-pote{
+    width: 25%;
+    border-radius: 5px;
 }

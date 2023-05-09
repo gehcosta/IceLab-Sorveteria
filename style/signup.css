@@ -26,7 +26,7 @@
   
   body {
     margin-top: 1rem;
-    background-image: url('../src/backgroundlogin.jpg');
+    background-image: url('../src/cadastro/backgroundlogin.jpg');
     background-size: cover;
     background-repeat: no-repeat;
   }

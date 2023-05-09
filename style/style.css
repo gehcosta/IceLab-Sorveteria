@@ -12,6 +12,10 @@
     --second-font: 'Righteous', cursive;
 }
 
+*{
+    text-decoration: none;
+}
+
 .navbar{
     background-color: var(--fourth-color);
     display: flex;

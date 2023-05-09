@@ -1,0 +1,30 @@
+.finished{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 2rem;
+}
+.finished__checkmark{
+    max-width: 60%;
+
+}
+
+.finished__title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+.finished__btn{
+    padding: 1rem 2rem;
+    background-color: var(--second-color);
+    color: var(--fifth-color);
+    font-family: var(--first-font);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none
+}
